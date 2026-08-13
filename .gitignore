@@ -1,0 +1,22 @@
+# Secrets -- never commit these
+.env
+*.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and generated data
+logs/
+*.log
+order_audit_log.jsonl
+
+# Instrument master cache (large, regenerated automatically)
+data/instrument_master_cache.csv
+instrument_master_cache.csv
+
+# OS/editor cruft
+.DS_Store
+.vscode/
